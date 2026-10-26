@@ -2,6 +2,10 @@
 
 An executable proof of concept for cyber-resilient traffic infrastructure, prepared for IS CyberNext 2026. A standalone project with a browser demonstration and an authenticated local server.
 
+**[Open the live browser demo](https://ey4d55.github.io/FlowTwin-CyberShield-AI/)** · [Download the QR code](branding/cybershield-qr.png) · [Branded QR card](branding/cybershield-qr-card.png)
+
+Verified: 25 core/server tests and 9 browser checks passed. Public deployment assets match the tested build; the hosted tamper scenario and pretrained local bus detection were also exercised. See `evidence/` and `branding/qr-validation.json`.
+
 ## Start
 
 Requires Node.js 22 or later. No npm install is needed for the application or core/server tests.

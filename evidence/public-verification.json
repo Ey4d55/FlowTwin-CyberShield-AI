@@ -1,0 +1,29 @@
+{
+  "url": "https://ey4d55.github.io/FlowTwin-CyberShield-AI/",
+  "timestamp": "2026-10-26T16:25:27.073Z",
+  "checks": [
+    {
+      "file": "index.html",
+      "verified": true
+    },
+    {
+      "file": "app.js",
+      "verified": true
+    },
+    {
+      "file": "core.js",
+      "verified": true
+    },
+    {
+      "file": "sw.js",
+      "verified": true
+    },
+    {
+      "file": "styles.css",
+      "verified": true
+    }
+  ],
+  "hostedTamperDetection": true,
+  "hostedVehicleInference": true,
+  "uncaughtErrors": []
+}

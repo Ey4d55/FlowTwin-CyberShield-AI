@@ -1,0 +1,12 @@
+{
+  "product": "FlowTwin CyberShield AI",
+  "version": "1.0.0",
+  "releaseDate": "2026-10-26",
+  "repository": "https://github.com/Ey4d55/FlowTwin-CyberShield-AI",
+  "demo": "https://ey4d55.github.io/FlowTwin-CyberShield-AI/",
+  "coreAndServerTests": { "passed": 25, "failed": 0, "githubWorkflow": "https://github.com/Ey4d55/FlowTwin-CyberShield-AI/actions/runs/40358567812" },
+  "browserChecks": { "passed": 9, "failed": 0, "receipt": "browser-tests.json" },
+  "publicDeployment": { "fileHashesMatched": 5, "tamperScenarioPassed": true, "pretrainedBusInferencePassed": true, "receipt": "public-verification.json" },
+  "qr": { "decodingChecksPassed": 5, "receipt": "../branding/qr-validation.json", "renderedProposalCodeDecoded": true },
+  "scope": "Working proof of concept; synthetic traffic telemetry, pretrained single-image detector, heuristic traffic forecasting and cyber anomaly rules. Public browser operator mode is demonstrative; real authentication is enforced by the localhost Node server. No physical traffic controller, live municipal data, or external cloud synchronization is connected."
+}
