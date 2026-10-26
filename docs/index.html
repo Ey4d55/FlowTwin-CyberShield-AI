@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a101c"><meta name="description" content="FlowTwin CyberShield AI — an interactive proof of concept for trusted traffic intelligence, secure telemetry, and operator-reviewed responses.">
+  <title>FlowTwin CyberShield AI | Secure Traffic Intelligence</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#operations" aria-label="CyberShield home"><img src="./icon.svg" alt="" width="38" height="42"><span>FlowTwin<span class="brand-sub">CYBERSHIELD AI</span></span></a>
+    <div class="workspace"><span class="workspace-icon">F</span><span>CyberNext 2026<small data-i18n="workspace">Innovation workspace</small></span><span class="workspace-arrow">⌄</span></div>
+    <p class="nav-label" data-i18n="workspaceNav">WORKSPACE</p>
+    <nav id="navigation" aria-label="Main navigation"></nav>
+    <div class="sidebar-bottom"><div class="edge-mark"><span class="pulse-dot"></span><span data-i18n="edgeActive">Edge engine active</span></div><p data-i18n="edgeNote">Verification and monitoring run locally.</p><div class="sidebar-version"><span>CYBERSHIELD / v1.0</span><span>PoC</span></div></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><div class="breadcrumb"><span>FlowTwin</span><span class="crumb-separator">/</span><strong id="breadcrumb">Operations center</strong></div><div class="topbar-actions"><span class="environment" id="environment">INITIALIZING</span><button id="language" class="button subtle" aria-label="Switch language">العربية</button><button id="operator" class="operator-button"><span class="avatar">OP</span><span id="operator-label">Operator access</span></button></div></header>
+    <main id="main" tabindex="-1"><div class="loading"><span class="pulse-dot"></span> Initializing secure traffic workspace…</div></main>
+    <footer><span>FlowTwin CyberShield AI™ <span class="footer-divider">/</span> IS CyberNext 2026</span><span data-i18n="footer">Executable proof of concept · Synthetic traffic · Simulation controls only</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="login-dialog"><form id="login-form"><div class="eyebrow">OPERATOR ACCESS</div><h2 data-i18n="loginTitle">Authorize a response</h2><p id="login-note"></p><label for="password" data-i18n="password">Operator password</label><input id="password" name="password" type="password" autocomplete="current-password" required><p id="login-error" class="error" role="alert"></p><div class="dialog-actions"><button type="button" class="button subtle" id="login-cancel" data-i18n="cancel">Cancel</button><button class="button primary" type="submit" data-i18n="signIn">Sign in</button></div></form></dialog>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

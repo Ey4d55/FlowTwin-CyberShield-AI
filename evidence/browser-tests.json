@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-10-26T16:21:31.031Z",
+  "checks": [
+    {
+      "name": "Dashboard initializes eight trusted sources",
+      "passed": true
+    },
+    {
+      "name": "Tamper scenario rejects a real signature and renders explanation",
+      "passed": true
+    },
+    {
+      "name": "Isolation requires review and explicit demo operator mode",
+      "passed": true
+    },
+    {
+      "name": "Scenario change and twin comparison use actual model outputs",
+      "passed": true
+    },
+    {
+      "name": "Audit export and verifier are functional",
+      "passed": true
+    },
+    {
+      "name": "Arabic layout and mobile viewport do not overflow",
+      "passed": true
+    },
+    {
+      "name": "Pretrained local vehicle detector runs on a real bus image",
+      "passed": true
+    },
+    {
+      "name": "Application shell and AI inference work after actual network disconnect",
+      "passed": true
+    },
+    {
+      "name": "Local server requires real operator login for a sensitive action",
+      "passed": true
+    }
+  ],
+  "uncaughtErrors": [],
+  "detectorFixture": "https://raw.githubusercontent.com/ultralytics/ultralytics/main/ultralytics/assets/bus.jpg"
+}
